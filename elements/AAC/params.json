@@ -1,0 +1,124 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "360 Video Viewer",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1520547699049x288465162971988350/360%20video%20bg.png",
+    "events": {
+        "AAQ": {
+            "caption": "has finished playing",
+            "doc": "Fires on finish",
+            "name": "video_ended"
+        },
+        "AAR": {
+            "caption": "has started playing",
+            "doc": "Fires on play",
+            "name": "video_playing"
+        },
+        "AAS": {
+            "caption": "has been paused",
+            "doc": "Fires on pause",
+            "name": "video_paused"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "Show controls",
+            "default_val": true,
+            "doc": "Show controls?",
+            "editor": "Checkbox",
+            "name": "controls",
+            "rank": 3
+        },
+        "AAF": {
+            "caption": "Autoplay",
+            "default_val": true,
+            "doc": "Autoplay?",
+            "editor": "Checkbox",
+            "name": "autoplay",
+            "rank": 4
+        },
+        "AAG": {
+            "caption": "Loop",
+            "default_val": false,
+            "doc": "Loop video?",
+            "editor": "Checkbox",
+            "name": "loop",
+            "rank": 5
+        },
+        "AAI": {
+            "caption": "Start muted",
+            "default_val": false,
+            "doc": "Start muted?",
+            "editor": "Checkbox",
+            "name": "muted",
+            "rank": 6
+        },
+        "AAJ": {
+            "caption": "Poster",
+            "doc": "Image to display before loading",
+            "editor": "DynamicValue",
+            "name": "poster",
+            "optional": true,
+            "rank": 2,
+            "value": "image"
+        },
+        "AAK": {
+            "caption": "Video",
+            "doc": "Video file",
+            "editor": "DynamicValue",
+            "name": "video",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAM": {
+            "caption": "Fluid fill",
+            "default_val": false,
+            "doc": "Fill element container?",
+            "editor": "Checkbox",
+            "name": "fluid",
+            "rank": 7
+        },
+        "AAO": {
+            "caption": "Preload",
+            "default_val": "Auto",
+            "doc": "Preload video?",
+            "editor": "Dropdown",
+            "name": "preload",
+            "options": "Auto,Metadata,None",
+            "rank": 8
+        },
+        "AAZ": {
+            "caption": "Custom skin CSS file (v6)",
+            "default_val": "",
+            "doc": "Load a custom css skin file",
+            "editor": "DynamicValue",
+            "name": "skin_file",
+            "optional": true,
+            "rank": 9,
+            "value": "file"
+        },
+        "AAc": {
+            "caption": "OR Youtube URL",
+            "doc": "Youtube URL",
+            "editor": "DynamicValue",
+            "name": "youtube_url",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "icon": "ion-play",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

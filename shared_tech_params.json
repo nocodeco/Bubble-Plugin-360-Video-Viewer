@@ -1,0 +1,11 @@
+{
+    "assets": {
+        "AAd": {
+            "name": "videojs pannellum plugin",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1520545546598x136591570917516940/videojs-pannellum-plugin.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}
